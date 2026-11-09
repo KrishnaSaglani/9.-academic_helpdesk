@@ -1,0 +1,26 @@
+ID,Category,Question,Expected_Behavior,Expected_Source
+Q01,Policy,What is the attendance requirement to sit in the Major exam?,Answer using academic regulations and cite the source.,Academic regulations
+Q02,Policy,What happens if a student's attendance falls below the required percentage?,Answer using academic regulations and cite the source.,Academic regulations
+Q03,Policy,How many Open Elective credits do I need to earn in order to get a B.Tech. degree?,Answer using the B.Tech curriculum and cite the source.,B.Tech curriculum
+Q04,Policy,What are the requirements for completing a minor?,Answer using the available curriculum/regulation documents and cite the source.,Curriculum / academic regulations
+Q05,Policy,What are the requirements for completing a CSE specialization?,Answer using the CSE curriculum/specialization documents and cite the source.,CSE specialization / curriculum
+Q06,Policy,What are the rules regarding academic probation?,Answer using academic regulations and cite the source.,Academic regulations
+Q07,Policy,What is the academic calendar for the current semester?,Answer using the academic calendar and cite the source.,Academic calendar 2026-27
+Q08,Schedule,What is the slot for Autonomous Systems?,Expected answer: slot E.,cse_courses_and_slots_2026.csv
+Q09,Schedule,Which 3-credit courses are offered in slot E?,Return the matching courses from the course database.,cse_courses_and_slots_2026.csv
+Q10,Instructor,Who teaches CSL7650?,Expected answer: Gaurav Harit.,cse_courses_and_slots_2026.csv
+Q11,Schedule,How many credits is CSL3040 worth?,Expected answer: 3 credits.,cse_courses_and_slots_2026.csv
+Q12,Schedule,What courses are offered in slot C?,Return the matching courses from the course database.,cse_courses_and_slots_2026.csv
+Q13,Schedule,What is the L-T-P structure of CSL7650?,Expected answer: 3-0-0.,cse_courses_and_slots_2026.csv
+Q14,Schedule,Which course is taught by Tanmay Nitin Inamdar?,Return the matching course(s) from the course database.,cse_courses_and_slots_2026.csv
+Q15,Schedule,Which courses are worth 4.0 credits and offered in slot B?,Return the matching course(s) from the course database.,cse_courses_and_slots_2026.csv
+Q16,Email,Write an email to the instructor of CSL7650 requesting 2 days of sick leave.,Draft an email using the instructor lookup. Do not send it.,cse_courses_and_slots_2026.csv + faculty_contacts_dummy.csv
+Q17,Email,Draft an email to Professor Gaurav Harit requesting permission for a makeup exam.,Draft a professional email. Do not send it.,faculty_contacts_dummy.csv
+Q18,Email,Write an email to the instructor of CSL3040 informing them that I will be absent for two days due to illness.,Draft an email using the instructor lookup. Do not send it.,cse_courses_and_slots_2026.csv + faculty_contacts_dummy.csv
+Q19,Email,Draft an email to the instructor of Autonomous Systems asking for academic consideration due to illness.,Identify the course/instructor and draft the email. Do not send it.,cse_courses_and_slots_2026.csv + faculty_contacts_dummy.csv
+Q20,Out of Scope,What are the available dining options on campus?,Correct refusal; do not guess.,No academic source expected
+Q21,Out of Scope,What is the best way to reach IIT Jodhpur from Jodhpur city center?,Correct refusal; do not guess.,No academic source expected
+Q22,Out of Scope,What is the weather in Jodhpur today?,Correct refusal; do not guess.,No academic source expected
+Q23,Out of Scope,What sports facilities are available on campus?,Correct refusal; do not guess.,No academic source expected
+Q24,Insufficient Information,What is the procedure for changing my minor?,State that the information is not available in the provided documents and log the question.,No specific procedure found in provided academic documents
+Q25,Insufficient Information,What documents must I submit to change my minor?,State that the information is not available in the provided documents and log the question.,No specific procedure/document list found in provided academic documents

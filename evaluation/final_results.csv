@@ -1,0 +1,220 @@
+﻿ID,Category,Question,Expected_Behavior,Agent_Answer,Correct,Grounded,Citation_Correct,Notes
+Q01,Policy,What is the attendance requirement to sit in the Major exam?,Answer using academic regulations and cite the source.,"The attendance requirement to sit in the Major exam is a minimum of 75% attendance in each course. If a student's attendance falls below this threshold, they are still allowed to appear for the exams but must score at least a C grade to pass the course. Students with attendance below 75% will receive an F grade if their marks are below the cutoff for a C grade.  
+
+[Source: 01_academic_regulations_2019.pdf, p. 7]",Yes,Yes,Yes,"Answers attendance rule and cites regulations, though the below-75% pass condition is stated."
+Q02,Policy,What happens if a student's attendance falls below the required percentage?,Answer using academic regulations and cite the source.,"If a student's attendance falls below the required 75% threshold, they are still allowed to appear for exams. However, to pass the course, they must score at least a C grade. If their marks are below the cut-off for a C grade, they will be awarded an F grade [Source: 01_academic_regulations_2019.pdf, p. 7].",Yes,Yes,Yes,Consistent with the stated attendance rule and cited source.
+Q03,Policy,How many Open Elective credits do I need to earn in order to get a B.Tech. degree?,Answer using the B.Tech curriculum and cite the source.,"To earn a B.Tech. degree, you need to complete **12 credits of Open Elective (OE) courses**. This requirement applies to students in the regular B.Tech. programme. If you are pursuing the B.Tech. with Minor route, the OE credits are replaced with 18 credits of compulsory courses from the minor department.  
+
+**Source**: 05_btech_cse_curriculum_2026.pdf, p. 9 [Source: 05_btech_cse_curriculum_2026.pdf, p. 9]",Yes,Yes,Yes,Gives OE credits and minor-route distinction with curriculum citation.
+Q04,Policy,What are the requirements for completing a minor?,Answer using the available curriculum/regulation documents and cite the source.,"To complete a minor, the following requirements must be met:  
+1. **Credit Requirements**: The minor requires a total of **18 credits**, comprising **12 credits** from open electives and **6 additional credits** beyond the core curriculum [Source: 05_btech_cse_curriculum_2026.pdf, p. 18].  
+2. **Programme Core Courses**: Each academic unit defines the core courses for the minor, which are fixed at 18 credits.  
+3. **Form Submission**: Students must opt for a minor by submitting forms circulated by departments at the end of the **2nd, 3rd, and 4th semesters**.  
+4. **Maximum Intake**: Departments determine the maximum number of students allowed to pursue a minor.  
+5. **Design Credit**: Design credit is completed during a regular semester after **semester-2**.  
+
+These guidelines ensure that students fulfill the academic and procedural criteria for pursuing a minor. [Source: 05_btech_cse_curriculum_2026.pdf, p. 18]",Yes,Yes,Yes,Provides minor requirements and source; details are grounded in curriculum.
+Q05,Policy,What are the requirements for completing a CSE specialization?,Answer using the CSE curriculum/specialization documents and cite the source.,"To complete a CSE specialization, students must fulfill the following requirements based on the provided context:  
+
+1. **Core Courses**: A minimum of 8 credits from the specialization's core course list (e.g., Computer Vision, Computer Graphics, Visual Computing Lab, etc.) [Source: 07_cse_specializations_dual_degree.pdf, p. 1].  
+2. **Elective Courses**: A minimum of 12 credits from the specialization's elective course list (e.g., Computational Imaging, 3D Shape Analysis, Introduction to AR and VR, etc.) [Source: 07_cse_specializations_dual_degree.pdf, p. 1].  
+3. **Specialization Project**: A mandatory 6-credit project (0-0-6) as part of the elective requirements [Source: 07_cse_specializations_dual_degree.pdf, p. 1].  
+
+For dual-degree programs (e.g., M.Tech AI), additional requirements such as meeting CGPA thresholds and fulfilling M.Tech-specific criteria apply [Source: 01_academic_regulations_2019.pdf, p. 19].  
+
+**Note**: The total credit requirement for the specialization itself (core + electives) is not explicitly stated in the context.",Partial,Yes,Yes,"Gives specialization requirements and citations, but caveat says total requirement is not explicit; verify whether the project is counted within electives."
+Q06,Policy,What are the rules regarding academic probation?,Answer using academic regulations and cite the source.,"The rules regarding academic probation at IIT Jodhpur are as follows:  
+1. A student is placed on academic probation if they fail to earn a minimum of 12 credits in any registered semester from the third semester onward [Source: 01_academic_regulations_2019.pdf, p. 18].  
+2. Students on probation are monitored through mandatory attendance, special tutorials, and mentoring under a senior student [Source: 01_academic_regulations_2019.pdf, p. 18].  
+3. If a student remains on academic probation for two consecutive registered semesters, their registration will be terminated [Source: 01_academic_regulations_2019.pdf, p. 18].  
+4. A warning is issued to a student who earns less than or equal to 15 credits in any registered semester, with intimation sent to their parents [Source: 01_academic_regulations_2019.pdf, p. 18].  
+5. The two semesters spent on academic probation count toward the maximum duration of the program [Source: 01_academic_regulations_2019.pdf, p. 18].",Yes,Yes,Yes,Provides probation criteria with citations.
+Q07,Policy,What is the academic calendar for the current semester?,Answer using the academic calendar and cite the source.,"The academic calendar for the current semester (as per the provided context for the academic year 2026-27) includes the following key dates and events:  
+
+- **Semester I (AY 2026-27):**  
+  - **Pre-registration:** 3–6 November 2026 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Semester Start:** Classes commence after pre-registration.  
+  - **Examinations (I, X, and E to D grades):** 15–20 September 2026 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Online Grade Submission:** 11 August 2026 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Moderation Committee Meeting:** 1 December 2026 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Last Date for Grade Display:** 3 December 2026 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+
+- **Semester II (AY 2026-27):**  
+  - **Pre-registration:** 5–7 April 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Examinations (I, X, and E to D grades):** 16–21 February 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Online Grade Submission:** 8 January 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Moderation Committee Meeting:** 5 May 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Last Date for Grade Display:** 6 May 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+
+- **Summer Term (AY 2026-27):**  
+  - **Examinations (I, X, and E to D grades):** 4–6 June 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Online Grade Submission:** 9 August 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Moderation Committee Meeting:** 20 July 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+  - **Last Date for Grade Display:** 23 July 2027 [Source: 04_academic_calendar_2026_27.pdf, p. 2]  
+
+For precise dates, refer to the approved academic calendar [Source: 04_academic_calendar_2026_27.pdf, p. 2].",Partial,Partial,Yes,"Cites calendar, but several dates/events appear internally inconsistent or out of sequence; verify against the PDF before relying on them."
+Q08,Schedule,What is the slot for Autonomous Systems?,Expected answer: slot E.,"Okay, the user asked for the slot of the course ""Autonomous Systems"". I ran the SQL query to select the Slot from the courses table where the Course Name is 'Autonomous Systems'. The result was an empty list, meaning there's no matching entry in the database.
+
+Hmm, so the course name might not be exactly 'Autonomous Systems' in the database. Maybe it's named differently, like with a code or additional details. Alternatively, there might be a typo or the course isn't listed yet. Since the query returned nothing, I can't provide the slot. I should check if there's any other way to get this info, but according to the tools available, I can only use the courses table. 
+
+The user might need to verify the course name or check if it's offered in a different batch. But since the database doesn't have the entry, I have to state that the information isn't available. I should also mention that the course name might be different or there's no data yet. So, the answer should be INSUFFICIENT_INFORMATION and explain the missing data.
+INSUFFICIENT_INFORMATION
+
+The database does not contain any entry for a course named ""Autonomous Systems"". The course name might be different, or the information is not yet available in the academic database. Please verify the course name or check with the academic helpdesk for further assistance.",No,Yes,No,"Expected slot E, but answer reports no database entry and refuses. It is cautious/grounded in the query result but does not answer expected value."
+Q09,Schedule,Which 3-credit courses are offered in slot E?,Return the matching courses from the course database.,"Okay, let me process this. The user asked for 3-credit courses in slot E. I ran the SQL query to get the course codes and names where Credits is '3' and Slot is 'E'. The results returned two courses: CSL3040 and CSL7650. 
+
+Now, I need to present these in a clear way. The user probably wants the course names and their codes. I should list them in a readable format. Let me check if there's any other info needed, but the question seems satisfied with the codes and names. No need for extra details unless specified. So, I'll format the answer with each course on a separate line, mentioning both the code and the name.
+Here are the 3-credit courses offered in slot E:
+
+1. **CSL3040 - Principles of Programming Languages**  
+2. **CSL7650 - Autonomous Systems (AI+X)**",Yes,Yes,No,"Lists two matching courses, but no source/citation is included in the answer."
+Q10,Instructor,Who teaches CSL7650?,Expected answer: Gaurav Harit.,"Okay, the user asked who teaches CSL7650. I ran the SQL query to get the instructor for that course code. The response from the tool shows that the instructor is Gaurav Harit. Since the query returned a result, I just need to present that information clearly. No need to transfer to another agent here because the answer is available. I'll format the response to state the instructor's name.
+The course CSL7650 is taught by **Gaurav Harit**.",Yes,Yes,No,Correct instructor name; no citation/source shown.
+Q11,Schedule,How many credits is CSL3040 worth?,Expected answer: 3 credits.,"Okay, the user asked about the credit value of CSL3040. I called the answer_policy_question tool, and the response said there's insufficient information because the course code isn't mentioned in the provided documents. Now I need to relay that answer clearly.
+
+First, I should start with the exact phrase ""INSUFFICIENT_INFORMATION"" as instructed. Then explain that the documents don't mention CSL3040 or its credits. I should also note that typically, academic regulations would have a table linking course codes to credits, but that's not present here. Make sure to cite the source document and page numbers as given. Keep it concise and stick to the facts without adding any extra info or guesses. Alright, that should cover it.
+INSUFFICIENT_INFORMATION  
+The context provided does not mention the course code CSL3040 or its credit value. To determine the credit worth of a specific course, the academic regulations would need to include a table or list explicitly associating course codes with their respective credit values, which is absent here [Source: 01_academic_regulations_2019.pdf, p. 16-32].",No,Partial,Partial,"Expected 3 credits, but routes to policy and returns insufficient information. Citation is to regulations and does not substantiate course-specific credits."
+Q12,Schedule,What courses are offered in slot C?,Return the matching courses from the course database.,"Okay, the user asked, ""What courses are offered in slot C?"" I generated an SQL query to select courses where the Slot is 'C'. The response from the tool shows that there's one course: CSL3010, Design and Analysis of Algorithms, instructed by Tanmay Nitin Inamdar.
+
+I need to present this information clearly. The user probably wants a list of courses in that slot, so I'll format the answer with the course code, name, and instructor. Since there's one result, I'll mention it directly. No need to transfer to another agent here because the data is available. Just make sure to state the information clearly and concisely.
+The following course is offered in slot C:
+
+- **Course Code**: CSL3010  
+- **Course Name**: Design and Analysis of Algorithms  
+- **Instructor(s)**: Tanmay Nitin Inamdar",Yes,Yes,No,"Returns a course matching slot C with code, title, and instructor; no citation/source shown."
+Q13,Schedule,What is the L-T-P structure of CSL7650?,Expected answer: 3-0-0.,"Okay, the user asked for the L-T-P structure of CSL7650. I executed the SQL query to get the ""L-T-P"" from the courses table where the course code is CSL7650. The result came back with ""3-0-0"". That means the course has 3 hours of lecture, 0 tutorial, and 0 practical. I should present this information clearly. Let me check if there's any other details needed, but the user only asked for the L-T-P structure, so the answer is straightforward. No need to involve other agents here since the data is available.
+The L-T-P structure for CSL7650 is **3-0-0**, meaning 3 hours of lecture, 0 hours of tutorial, and 0 hours of practical.",Yes,Yes,No,Correct L-T-P and explanation; no citation/source shown.
+Q14,Schedule,Which course is taught by Tanmay Nitin Inamdar?,Return the matching course(s) from the course database.,"Okay, let me process the user's question again. They asked which course is taught by Tanmay Nitin Inamdar. I used the execute_sql tool to query the courses table where the Instructor(s) field contains that name. The SQL query returned three results. Now I need to present these findings clearly.
+
+First, I should list each course with its code and name. The user might be a student looking for course details, possibly to enroll or check their schedule. They might also want to know if there are multiple courses taught by that instructor. The answer should be straightforward, enumerating each course. Since the query was successful and there are results, no need to mention insufficient information. Just format the response neatly, maybe bullet points for clarity. Let me check if the SQL results are correctly structured. The columns are ""Course Code"" and ""Course Name"", so each row has those. I'll present them as a list. That's all.
+The courses taught by Tanmay Nitin Inamdar are:
+
+- **CSL3010**: Design and Analysis of Algorithms  
+- **CSN3020**: Design/Practical Experience  
+- **CSD4030**: B Tech Project",Yes,Yes,No,Lists three matching courses; no citation/source shown.
+Q15,Schedule,Which courses are worth 4.0 credits and offered in slot B?,Return the matching course(s) from the course database.,"Okay, let me process this. The user asked for courses worth 4.0 credits in slot B. The SQL query was executed, and it returned one course: CSL3030, Operating Systems. So I need to present that information clearly.
+
+First, check if the query result has any data. In this case, there's one row. The answer should list the course code and name. Maybe also mention the slot and credits for completeness, but the user specifically asked for courses with those criteria, so the main points are code and name.
+
+I should format the answer in a way that's easy to read. Maybe bullet points. Also, make sure to mention that this is the result of the query. Since there's data, no need to mention insufficient information. Just present the found course.
+The course offered in slot B with 4.0 credits is:
+
+- **Course Code:** CSL3030  
+- **Course Name:** Operating Systems  
+
+This information is directly retrieved from the academic schedule database.",Yes,Yes,No,Returns the matching 4-credit slot B course; no citation/source shown.
+Q16,Email,Write an email to the instructor of CSL7650 requesting 2 days of sick leave.,Draft an email using the instructor lookup. Do not send it.,"Okay, so the user needed to request sick leave for CSL7650. I first looked up the instructor using the course code, which gave me Gaurav Harit's email. Now I need to draft the email. Let me check the requirements: subject, greeting, reason, dates, and closing. The user mentioned 2 days of sick leave, but didn't specify the dates. I should ask them to provide the exact dates when they're unavailable. Also, make sure the email is polite and professional. Let me structure it step by step.
+Subject: Request for Sick Leave (CSL7650)  
+
+Dear Dr. Gaurav Harit,  
+
+I hope this email finds you well. I am writing to formally request two days of sick leave due to [briefly mention illness, e.g., ""a medical condition requiring rest""]. My absence would be from [start date] to [end date] (please confirm these dates if needed).  
+
+I apologize for any inconvenience this may cause and appreciate your understanding. Please let me know if additional documentation is required or if there are any adjustments needed for coursework/assignments during this period.  
+
+Thank you for your consideration.  
+
+Best regards,  
+[Your Full Name]  
+[Your Student ID, if relevant]  
+
+**Note**: Please fill in the dates and any specific details about your illness before sending.",Yes,Partial,No,Drafts email and includes placeholders for missing dates; claims instructor lookup but no email address/source is actually surfaced.
+Q17,Email,Draft an email to Professor Gaurav Harit requesting permission for a makeup exam.,Draft a professional email. Do not send it.,"Okay, let's see. The user wants to draft an email to Professor Gaurav Harit requesting permission for a makeup exam. First, I need to check if I have the necessary information. The user provided the instructor's name, so I can use the lookup_instructor function with that name. Wait, but the previous steps showed that the academic_helpdesk_orchestrator transferred to the email_agent, but the result was None. Maybe the instructor information isn't available through the tool. Since the user directly provided the instructor's name, I can proceed without the tool. The email should include the subject, greeting, reason for the request, relevant dates, and a polite closing. I'll structure it accordingly, making sure to use the correct instructor name and placeholders if needed. Let me draft that.
+Subject: Request for Makeup Exam Permission  
+
+Dear Professor Gaurav Harit,  
+
+I hope this email finds you well. I am writing to formally request permission to take a makeup exam for [Course Name/Code], as I was unable to attend the scheduled examination on [Original Exam Date] due to [briefly mention reason, e.g., ""medical leave"" or ""personal emergency""].  
+
+Could we arrange a makeup session at your earliest convenience? Please let me know the necessary steps to proceed, and I am happy to provide any additional documentation if required.  
+
+Thank you for your understanding and support. I look forward to your guidance.  
+
+Best regards,  
+[Your Full Name]  
+[Your Student ID, if applicable]  
+
+**Note:** Ensure to replace placeholders (e.g., [Course Name/Code], [Original Exam Date], [reason]) with specific details before sending.",Yes,Partial,No,"Produces professional email draft with placeholders; instructor name supplied, but no lookup result/citation shown."
+Q18,Email,Write an email to the instructor of CSL3040 informing them that I will be absent for two days due to illness.,Draft an email using the instructor lookup. Do not send it.,"Okay, I need to help the user draft an email to their instructor for CSL3040 about being absent due to illness. Let me start by recalling the information from the tool response. The instructor is Bikash Santra with the email bikash.santra@example.edu.
+
+The user mentioned being absent for two days, but didn't specify the dates. I should prompt them to provide the exact dates of absence to include in the email. Also, the subject line should be clear and concise, like ""Absence Due to Illness - CSL3040"". 
+
+I'll structure the email with a greeting, state the reason for writing, mention the course and dates, and request any necessary follow-up. Since the user hasn't provided the specific dates yet, I'll need to ask for that information before finalizing the email. Let me check if there's any other info needed, but I think that's all. Wait, the user might have intended to include dates but forgot. So, I'll draft the email with placeholders for the dates and ask them to fill in the details.
+Here’s a draft email based on the information provided:
+
+---
+
+**Subject:** Absence Due to Illness - CSL3040  
+
+Dear Dr. Bikash Santra,  
+
+I hope this email finds you well. I am writing to inform you that I will be absent from CSL3040 for two days due to illness. The dates of my absence are [insert start date] to [insert end date].  
+
+I apologize for any inconvenience this may cause and would appreciate your guidance on how to catch up on any missed material or assignments. Please let me know if further details are required.  
+
+Thank you for your understanding.  
+
+Best regards,  
+[Your Full Name]  
+[Your Student ID, if necessary]  
+
+---
+
+**Note:** Please provide the specific dates of absence to complete the email.",Yes,Partial,No,Drafts email with missing dates as placeholders; instructor contact is asserted but not cited.
+Q19,Email,Draft an email to the instructor of Autonomous Systems asking for academic consideration due to illness.,Identify the course/instructor and draft the email. Do not send it.,"Okay, let me try to figure out how to handle this user's request. The user wants to draft an email to the instructor of Autonomous Systems asking for academic consideration due to illness. 
+
+First, I need to check if I can handle this directly. The user mentioned the course name, ""Autonomous Systems,"" so I should use the lookup_instructor tool to find the instructor's details. But wait, the previous interaction shows that when the email_agent was called, the transfer_to_agent resulted in None. Maybe the instructor information isn't available through the tool?
+
+Wait, the user's query is about drafting an email, which falls under the email_agent's responsibility. The initial step is to call lookup_instructor with the course name. However, in the provided context, when the email_agent was called, the lookup_instructor might not have returned any result. The user's example shows that after transferring to the email_agent, the result was None. So, perhaps the instructor info isn't available, and I need to proceed with placeholders.
+
+In that case, the email should have placeholders for the instructor's name and email. The email should include the subject, greeting, reason for writing (illness), request for academic consideration, and a polite closing. Since the instructor info isn't available, I can't fill in the details, so I'll use [Instructor's Name] and [Instructor's Email] as placeholders. 
+
+I should also make sure to mention that the student is providing medical certification and is willing to provide it if needed. The email should be professional and concise. Let me structure the email accordingly, making sure all necessary parts are included even without specific details.
+INSUFFICIENT_INFORMATION
+
+The system does not have access to instructor information for ""Autonomous Systems"" to populate the email with specific details. The email draft can include placeholders for the instructor's name and email. Here's a template:
+
+---
+
+**Subject:** Request for Academic Consideration Due to Illness  
+
+Dear [Instructor's Name],  
+
+I hope this message finds you well. I am writing to formally request academic consideration due to my illness, which has required me to miss recent classes and assignments. I am currently recovering and would appreciate your guidance on how to proceed with coursework and any potential adjustments to deadlines or assessments.  
+
+I am happy to provide medical certification if required. Please let me know the next steps to ensure I can meet the course requirements without further disruption.  
+
+Thank you for your understanding and support. I look forward to your response.  
+
+Best regards,  
+[Your Full Name]  
+[Your Student ID]  
+[Your Email Address]  
+
+---  
+
+Note: Replace [Instructor's Name], [Your Full Name], etc., with your details. Contact the Academic Helpdesk if further assistance is needed.",Partial,Partial,No,"Provides usable template, but instructor lookup failed and answer is prefixed INSUFFICIENT_INFORMATION despite expected behavior being to identify instructor and draft."
+Q20,Out of Scope,What are the available dining options on campus?,Correct refusal; do not guess.,"Okay, the user asked about dining options on campus. I checked the available agents: policy_agent, schedule_agent, and email_agent. None of them handle campus facilities or dining information. So, the question is out of scope for the available specialists. I need to log it as out_of_scope. The previous response already called log_unanswered with the correct parameters. Now, I should confirm that there's no other agent available and proceed to inform the user that I can't help with that query. Since the tools are exhausted, the final answer is a refusal.
+I'm unable to assist with questions about campus dining options as this falls outside the scope of academic policies, schedules, or email drafting services. Would you like help with something else related to your academic program?",Yes,Yes,N/A,Final response correctly refuses dining query. Answer also includes internal reasoning/tool narration; remove that from production outputs.
+Q21,Out of Scope,What is the best way to reach IIT Jodhpur from Jodhpur city center?,Correct refusal; do not guess.,"Okay, the user asked about getting to IIT Jodhpur from the city center. I checked the agents available: policy, schedule, and email. None of them handle transportation or directions. So, I can't use any of the tools provided. I need to log this as out of scope. The answer should be a refusal without any extra info. Let me make sure I didn't miss any agent that could help. No, the agents are all academic-related. So the correct step is to log and refuse.
+I'm unable to assist with this query as it falls outside the scope of academic policies, schedules, or email drafting. Please consult a map service or local transportation authority for directions.",Yes,Yes,N/A,Final response refuses and redirects to map service. Internal reasoning/tool narration is exposed; remove from production outputs.
+Q22,Out of Scope,What is the weather in Jodhpur today?,Correct refusal; do not guess.,"Okay, the user asked about the weather in Jodhpur. I checked the available agents and none handle weather queries. So, I need to refuse the request. Let me make sure to use the correct response format. The answer should be brief and polite, indicating that the helpdesk can't provide weather info. Also, I need to log this as out-of-scope using the log_unanswered function. Wait, did I already log it in the previous step? Oh, right, the user's question was handled in the previous interaction. Now, the assistant's response should just be the refusal message without any tool calls. Let me confirm the instructions: for out-of-scope questions, return a brief refusal. So, the final answer is the refusal message.
+The academic helpdesk does not provide weather information. Please check a reliable weather service or app for the latest forecast in Jodhpur.",Yes,Yes,N/A,Final response refuses weather query. Internal reasoning/tool narration is exposed; remove from production outputs.
+Q23,Out of Scope,What sports facilities are available on campus?,Correct refusal; do not guess.,"Okay, the user is asking about sports facilities available on campus. Let me check the agents I have. The policy_agent handles academic policies, attendance, credits, etc. The schedule_agent deals with course schedules, timetables, and course offerings. The email_agent is for drafting emails related to academic requests. None of these agents are responsible for information about sports facilities. Since the question is about campus facilities, which isn't covered by any of the provided agents, I need to inform the user that I can't help with that. I should also log it as out_of_scope.
+The question is outside the scope of available specialists. Sports facilities information is not covered by policy, schedule, or email agents.
+
+log_unanswered
+{""question"":""What sports facilities are available on campus?"",""reason"":""out_of_scope""}",Yes,Yes,N/A,Refuses out-of-scope sports-facilities question and logs it. Internal reasoning/tool narration and tool payload appear in answer; keep only concise refusal.
+Q24,Insufficient Information,What is the procedure for changing my minor?,State that the information is not available in the provided documents and log the question.,"Okay, the user asked about changing their minor, and the answer_policy_question tool returned that there's insufficient information. The provided context only explains how to opt for a minor (via forms in specific semesters) and the requirements to complete it, but not the procedure for changing an existing minor.
+
+Since the documents don't mention anything about altering an existing minor, I can't make up a procedure. I need to inform the user that the information isn't available. Also, the user might need to contact the academic helpdesk for further assistance. Let me check if there's any other source mentioned in the tool response. The source cited is 05_btech_cse_curriculum_2026.pdf, p. 18, which only covers opting for a minor, not changing one. 
+
+Therefore, the correct response is to state that the information is insufficient and direct the user to consult the academic helpdesk or relevant authorities for detailed guidance.
+INSUFFICIENT_INFORMATION  
+The provided academic documents only describe the process for opting for a minor (via forms circulated in semesters 2, 3, and 4) and its completion requirements [Source: 05_btech_cse_curriculum_2026.pdf, p. 18]. They do not specify procedures for modifying an existing minor. For detailed guidance, please contact the academic helpdesk or relevant department authorities.",Yes,Yes,Yes,States that changing an existing minor is undocumented and cites relevant curriculum page; should ensure question was logged as required.
+Q25,Insufficient Information,What documents must I submit to change my minor?,State that the information is not available in the provided documents and log the question.,"Okay, the user asked about the documents needed to change their minor. The policy_agent used the answer_policy_question tool and found that the available documents don't specify the required forms. The result mentions that while there's info on opting for a minor, there's no detail on altering an existing minor selection.
+
+Since the information is insufficient, I need to clearly state that. The user probably needs to check with their department or the registrar's office for specific forms. I should also mention that the curriculum document mentions opting for a minor via department forms but doesn't cover changes. So, the best next step is to direct them to contact the relevant authorities for detailed guidance.
+INSUFFICIENT_INFORMATION  
+The provided academic documents do not specify the exact documents required to change an existing minor selection. While the curriculum mentions opting for a minor via forms circulated by departments [Source: 05_btech_cse_curriculum_2026.pdf, p. 18], there is no information about the process or documentation for modifying an already selected minor. You may need to consult the registrar's office or your department head for specific requirements.",Yes,Yes,Yes,States required documents are not specified and cites curriculum; should ensure question was logged as required.
